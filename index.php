@@ -1,6 +1,6 @@
 <?php
 
-$home_url              = 'http://' . $_SERVER['HTTP_HOST'];
+$home_url              = '//' . $_SERVER['HTTP_HOST'];
 $default_title         = 'Premium Themes';
 $theme_found           = false;
 $current_theme         = '';
@@ -17,11 +17,11 @@ $themes = array(
 	'anva' => array(
 		"id"      => "anva",
 		"name"	  => 'Anva',
-		"url"     => "http://themes.anthuanvasquez.net/anva",
+		"url"     => "https://themes.anthuanvasquez.net/anva",
 		"preview" => $home_url . "/images/screenshot/anva.jpg",
 		"type"    => "Multi-Purpose",
 		"cms"     => "WordPress",
-		"shop"    => "http://themeforest.net/user/oidoperfecto"
+		"shop"    => "https://themeforest.net/user/oidoperfecto"
 	),
 );
 
