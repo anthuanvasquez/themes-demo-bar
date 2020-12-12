@@ -1,20 +1,20 @@
-<?php 
+<?php
 
-global $redirect, $current_theme;
+global $redirect, $current_theme, $website;
 
 $redirect = true;
 
-require_once( "index.php" );
+require_once( 'index.php' );
 
 ?>
 <!Doctype HTML>
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Premium Themes</title> 
-	<script type="text/javascript">
-		top.location.href = 'http://themes.anthuanvasquez.net/?theme=<?php echo $current_theme; ?>';
-	</script>     
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Premium Themes</title>
+    <script type="text/javascript">
+        top.location.href = $website . '?theme=<?php echo $current_theme; ?>';
+    </script>
 </head>
 <body>
 </body>
